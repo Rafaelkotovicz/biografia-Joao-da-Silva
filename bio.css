@@ -1,0 +1,127 @@
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson text", serif;
+    font-size: 20px;
+}
+main h1{
+    font-size: 60px;
+    background-color: rgb(122, 3, 39);
+    color: aliceblue;
+    text-align: center;
+    font-family: "Open Sans", sans-serif ;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    border:10px solid black;
+}
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+}
+blockquote{
+    background-color: rgb(192, 201, 204);
+    padding: 16px;
+    border: 10px solid gray;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+}
+strong{
+    font-weight: 600;
+}
+em{
+   font-style: italic; 
+}
+aside{
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    text-align: center;
+    padding: 20px;
+    font-family: Open Sans Condensed, sans-serif;
+}
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+nav a {
+    color: inherit;
+}
+.icones li{
+    display: inline-block;
+}
+footer{
+    background-color: #000;
+    color: #f2fffc;
+    padding: 20px;
+}
+.icones a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background-image: url(github.png);
+}
+.twitter{
+    background-image: url(twitter.png);
+}
+.linkedin{
+    background-image: url(linkedin.png);
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+aside, .minha-foto{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+aside{
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+main{
+    float: left;
+    width: 85%;
+}
+footer{
+    clear: both;
+    bottom: fixed;
+    width: 100%;
+}
+cite{
+    font-style: italic;
+    float: right;
+}
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.conteiner{
+    padding: 20px 200px 20px 200px ;
+}
+.paragrafo-um{
+    padding-right: 300px;
+}
+.paragrafo-dois{
+    padding-left: 300px;
+}
+.sub-um{
+    padding-bottom: 20px;
+}
+.sub-dois{
+    padding-top: 20px;
+}
